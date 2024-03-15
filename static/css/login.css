@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://img.freepik.com/free-vector/abstract-soft-colorful-watercolor-texture-background-design-vector_1055-12127.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: black;
+  color: white;
+  padding: 0 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo a {
+  font-weight: bold;
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+.btn button {
+  padding: 10px 20px;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+}
+form h3 {
+  font-size: xx-large;
+  font-weight: bolder;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+form .fields {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+form .fields label {
+  font-size: medium;
+  margin-bottom: 7px;
+}
+form .fields input {
+  height: 40px;
+  width: 350px;
+  border-radius: 3px;
+  padding-left: 7px;
+  font-size: medium;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: 1px solid;
+}
+form .fields div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form .fields div a {
+  text-decoration: none;
+  color: royalblue;
+}
+form .fields div button {
+  padding: 10px 20px;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.btn button:hover {
+    cursor: pointer;
+  }
+
+.fields div button:hover{
+    cursor: pointer;
+}
